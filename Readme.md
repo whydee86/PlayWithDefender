@@ -20,8 +20,7 @@ Disable Controlled folder access    | Fdefender.exe -F --Off
 Enable Controlled folder access     | Fdefender.exe -F --On
 
 ### You can also combine flags in order to disable/enable many protections together. ###
-Fdefender.exe -FRS --On
-Fdefender.exe -FRS --Off
+Fdefender.exe -FRS --On | Fdefender.exe -FRS --Off
 
 ### TODO ###
 [ ] Auto Privilege escalation using exploit/Vul driver
