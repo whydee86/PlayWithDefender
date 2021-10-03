@@ -4,6 +4,8 @@ An easy tool to disable and enable windows defender protections
 ### Compile ###
 nim c -x -f Fdefender.nim
 
+## How to use ##
+
 Protection                          | Command
 ----------------------------------- | ----------------------
 Disable all protections             | Fdefender.exe -D
