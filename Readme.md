@@ -1,4 +1,4 @@
-## Disbale defender via registry ##
+## Disable Windows Defender via registry ##
 An easy tool to disable and enable windows defender protections
 
 ### Compile ###
