@@ -1,7 +1,7 @@
 ## Disbale defender via registry ##
 An easy tool to disable and enable windows defender protections
 
-#### Compile ####
+### Compile ###
 nim c -x -f Fdefender.nim
 
 Protection                          | Command
@@ -19,14 +19,14 @@ Enable Network Protection           | Fdefender.exe -N --On
 Disable Controlled folder access    | Fdefender.exe -F --Off
 Enable Controlled folder access     | Fdefender.exe -F --On
 
-#### You can also combine flags in order to disable/enable many protections together. ####
+### You can also combine flags in order to disable/enable many protections together. ###
 Fdefender.exe -FRS --On
 Fdefender.exe -FRS --Off
 
-#### TODO ####
- Markup : - [ ] Auto Privilege escalation using exploit/Vul driver
+### TODO ###
+[ ] Auto Privilege escalation using exploit/Vul driver
 
-#### All Flags must start with Capital letters: Info, Off, On. ####
+### All Flags must start with Capital letters: Info, Off, On. ###
 
 
 
