@@ -24,12 +24,16 @@ Enable Controlled folder access     | Fdefender.exe -F --On
 ### You can also combine flags in order to disable/enable many protections together. ###
 Fdefender.exe -FRS --On | Fdefender.exe -FRS --Off
 
+#### All Flags must start with Capital letters: Info, Off, On. ####
+------
+### Good To Mention ###
+I want to mention that the following technique to turn on and off "windows defender" came from the necessity to quickly turn off "windows defender" on a computer managed by an organization.
+The registry values under:
+"Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Policy Manager"
+They appear only if the computer is under an organization.
+#### BUT ####
+It still works on a computer that is not managed. All you have to do is execute "Fdefender.exe -E" which will enable all defender protections in order to create the values we need under the key above. After that, you can manage your defender via this tool.
 ### TODO ###
-[ ] Auto Privilege escalation using exploit/Vul driver
-
-### All Flags must start with Capital letters: Info, Off, On. ###
-
-
-
+- [ ] Auto Privilege escalation using exploit/Vul driver
 
 
