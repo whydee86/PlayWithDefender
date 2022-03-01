@@ -1,9 +1,11 @@
 ## Disable Windows Defender via registry ##
 An easy tool to disable and enable windows defender protections
 
-### Compile ###
+### Install & Compile ###
+```
+nimble install winregistry winim
 nim c -x -f Fdefender.nim
-
+```
 ## How to use ##
 
 Protection                          | Command
