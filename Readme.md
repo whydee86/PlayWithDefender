@@ -3,7 +3,7 @@ An easy tool to disable and enable windows defender protections
 
 ### Install & Compile ###
 ```
-nimble install winregistry winim
+nimble install winregistry winim cligen
 nim c -x -f Fdefender.nim
 ```
 ## How to use ##
